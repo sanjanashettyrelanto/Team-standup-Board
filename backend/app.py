@@ -2,13 +2,13 @@ import json
 import os
 from datetime import date
 from typing import List, Dict, Any
-
+             
 from flask import Flask, jsonify, request
 from flask_cors import CORS
-
+             
 from models import StandupUpdate
 
-app = Flask(__name__)
+app = Flask(__name__)        
 CORS(app)
 
 DATA_FILE = os.path.join(os.path.dirname(__file__), "data.json")
