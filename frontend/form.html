@@ -1,0 +1,39 @@
+<div class="modal-overlay hidden" id="standup-modal" role="dialog" aria-modal="true" aria-labelledby="standup-modal-title">
+  <div class="modal-card">
+    <div class="modal-header">
+      <h2 id="standup-modal-title">Post Standup Update</h2>
+      <button id="close-form-btn" class="icon-btn" type="button" aria-label="Close">x</button>
+    </div>
+    <form id="standup-form" novalidate>
+      <label>
+        Team Member
+        <select id="member-name" name="name" required>
+          <option value="">Select a member</option>
+          <option value="Alice">Alice</option>
+          <option value="Bob">Bob</option>
+          <option value="Carol">Carol</option>
+          <option value="Dave">Dave</option>
+          <option value="Eva">Eva</option>
+          <option value="Frank">Frank</option>
+        </select>
+      </label>
+      <label>
+        What I did today
+        <textarea id="did-text" name="did" rows="3" required></textarea>
+      </label>
+      <label>
+        What I'll do next
+        <textarea id="willdo-text" name="willdo" rows="3" required></textarea>
+      </label>
+      <label>
+        Blockers (optional)
+        <textarea id="blockers-text" name="blockers" rows="2"></textarea>
+      </label>
+      <p id="form-error" class="form-error hidden"></p>
+      <div class="modal-actions">
+        <button type="button" id="cancel-form-btn" class="btn-secondary">Cancel</button>
+        <button type="submit" class="btn-primary">Submit Update</button>
+      </div>
+    </form>
+  </div>
+</div>

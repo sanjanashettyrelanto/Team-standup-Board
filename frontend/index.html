@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Standup Board</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="top-nav">
+      <div class="nav-title-wrap">
+        <h1>Standup Board</h1>
+        <span id="today-label" class="today-label"></span>
+      </div>
+      <button id="open-form-btn" class="btn-primary" type="button">+ Post Update</button>
+    </header>
+
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div id="calendar-widget"></div>
+      </aside>
+      <main class="main-content">
+        <div id="filter-bar"></div>
+        <section id="standup-list" class="standup-list"></section>
+      </main>
+    </div>
+
+    <div id="form-modal-root"></div>
+
+    <script type="module" src="./form.js"></script>
+    <script type="module" src="./filters.js"></script>
+    <script type="module" src="./calendar.js"></script>
+    <script type="module" src="./display.js"></script>
+    <script type="module">
+      const label = document.getElementById("today-label");
+      const now = new Date();
+      label.textContent = now.toLocaleDateString(undefined, {
+        weekday: "short",
+        year: "numeric",
+        month: "short",
+        day: "numeric",
+      });
+    </script>
+  </body>
+</html>

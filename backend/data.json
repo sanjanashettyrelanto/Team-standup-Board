@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Alice",
+    "did": "Finalized login form states and merged UI feedback polish for invalid input cases.",
+    "willdo": "Pair with Bob on profile settings API integration and update loading skeletons.",
+    "blockers": "",
+    "date": "2026-04-08",
+    "submitted_at": "2026-04-08T09:07:12"
+  },
+  {
+    "name": "Bob",
+    "did": "Reviewed open PRs, cleaned stale branches, and fixed role checks in middleware.",
+    "willdo": "Finish assignment workflow validations and improve error responses from API.",
+    "blockers": "Waiting on final payload examples from product for edge-case validation.",
+    "date": "2026-04-08",
+    "submitted_at": "2026-04-08T09:31:49"
+  },
+  {
+    "name": "Carol",
+    "did": "Updated dashboard cards to match new spacing tokens and improved empty states.",
+    "willdo": "Add chart legends and verify mobile spacing in Safari.",
+    "blockers": "",
+    "date": "2026-04-08",
+    "submitted_at": "2026-04-08T10:02:20"
+  },
+  {
+    "name": "Dave",
+    "did": "Wrote integration tests for standup posting and date filtering endpoints.",
+    "willdo": "Automate seed reset script for demo environments.",
+    "blockers": "",
+    "date": "2026-04-07",
+    "submitted_at": "2026-04-07T17:14:08"
+  },
+  {
+    "name": "Eva",
+    "did": "Benchmarked page load and trimmed unused assets for faster first paint.",
+    "willdo": "Add compression to static assets and tune image sizes.",
+    "blockers": "Need CDN access from ops to test production-like caching.",
+    "date": "2026-04-07",
+    "submitted_at": "2026-04-07T17:32:54"
+  },
+  {
+    "name": "Frank",
+    "did": "Refined calendar interactions and implemented month navigation accessibility labels.",
+    "willdo": "Prepare future sprint tasks and document release checklist.",
+    "blockers": "",
+    "date": "2026-04-06",
+    "submitted_at": "2026-04-06T18:05:41"
+  },
+  {
+    "name": "Alice",
+    "did": "Synced with QA and documented current regressions before test cycle.",
+    "willdo": "Validate regression fixes and follow up with owners.",
+    "blockers": "",
+    "date": "2026-04-09",
+    "submitted_at": "2026-04-08T16:05:00"
+  },
+  {
+    "name": "Carol",
+    "did": "Drafted handoff notes for analytics updates and reviewed metrics naming.",
+    "willdo": "Finalize event schema for onboarding funnel tracking.",
+    "blockers": "",
+    "date": "2026-04-10",
+    "submitted_at": "2026-04-08T16:06:30"
+  }
+]
