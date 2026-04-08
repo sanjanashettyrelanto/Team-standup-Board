@@ -15,7 +15,7 @@ Standup Board is a lightweight team status tracker with a Flask API and a vanill
 
 Backend runs on `http://localhost:5000`.
 
-## Branch Ownership (Example Team Split)
+## Branch Ownership 
 
 1. `feature/alice-backend-api`
    - `backend/app.py`
