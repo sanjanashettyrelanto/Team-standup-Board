@@ -62,5 +62,45 @@
     "blockers": "",
     "date": "2026-04-10",
     "submitted_at": "2026-04-08T16:06:30"
-  }
+  },
+{
+  "name": "George",
+  "did": "Integrated search functionality with debounce and optimized query performance.",
+  "willdo": "Add advanced filters for date range and user roles.",
+  "blockers": "",
+  "date": "2026-04-08",
+  "submitted_at": "2026-04-08T10:25:14"
+},
+{
+  "name": "Hannah",
+  "did": "Designed reusable card components and improved typography consistency.",
+  "willdo": "Work on dark mode styling and accessibility contrast checks.",
+  "blockers": "",
+  "date": "2026-04-08",
+  "submitted_at": "2026-04-08T10:40:32"
+},
+{
+  "name": "Ishaan",
+  "did": "Connected frontend with mock API and handled error states for failed requests.",
+  "willdo": "Replace mock API with real backend endpoints.",
+  "blockers": "Backend endpoints are still under development.",
+  "date": "2026-04-08",
+  "submitted_at": "2026-04-08T11:05:47"
+},
+{
+  "name": "Jiya",
+  "did": "Tested UI responsiveness across devices and fixed layout shifts.",
+  "willdo": "Improve mobile navigation and optimize touch interactions.",
+  "blockers": "",
+  "date": "2026-04-07",
+  "submitted_at": "2026-04-07T16:48:10"
+},
+{
+  "name": "Karan",
+  "did": "Set up project linting rules and fixed existing ESLint issues.",
+  "willdo": "Integrate Prettier and enforce formatting standards in CI.",
+  "blockers": "",
+  "date": "2026-04-07",
+  "submitted_at": "2026-04-07T17:10:55"
+}
 ]
