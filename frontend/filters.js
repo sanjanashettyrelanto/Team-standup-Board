@@ -1,6 +1,6 @@
 const members = ["Alice", "Bob", "Carol", "Dave", "Eva", "Frank"];
 
-const state = {
+const state = {   
   member: "All",
   keyword: "",
   blockersOnly: false,
